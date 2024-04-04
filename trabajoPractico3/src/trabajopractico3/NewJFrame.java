@@ -95,6 +95,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 0, 0));
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\NoxiePC\\Documents\\GitHub\\LAB1-TP3\\trabajoPractico3\\imagenes\\image.jpg")); // NOI18N
         jButton1.setText("Verificar");
         jButton1.setToolTipText("");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
