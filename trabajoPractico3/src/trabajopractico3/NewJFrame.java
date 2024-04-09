@@ -98,6 +98,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jbButton.setBackground(new java.awt.Color(204, 204, 204));
         jbButton.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jbButton.setForeground(new java.awt.Color(0, 0, 0));
+        jbButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\NoxiePC\\Documents\\GitHub\\LAB1-TP3\\imagenes\\image.jpg")); // NOI18N
         jbButton.setText("Verificar");
         jbButton.setToolTipText("");
         jbButton.addActionListener(new java.awt.event.ActionListener() {
@@ -133,10 +134,13 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(jtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(25, 25, 25)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3)
-                    .addComponent(jtContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addComponent(jLabel3))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jtContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                 .addComponent(jbButton, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(19, 19, 19))
